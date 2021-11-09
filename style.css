@@ -1,0 +1,260 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  height: 2200px;
+}
+.main_view {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.28fr 1fr 0.28fr;
+}
+.main_view .main_left,
+.main_view .main_middle,
+.main_view .main_right {
+  width: 100%;
+}
+.main_view .main_middle {
+  position: relative;
+  min-height: 500px;
+}
+.main_view .main_middle header {
+  position: fixed;
+  top: 0;
+  width: 64.1%;
+  background-color: white;
+}
+.main_view .main_middle header section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.main_view .main_middle header section .left h2 {
+  font-size: 28px;
+  color: #aad6c1;
+}
+.main_view .main_middle header section .left a {
+  text-decoration: none;
+  color: #aad6c1;
+  font-weight: 300;
+}
+.main_view .main_middle header section .middle h1 {
+  font-size: 60px;
+  color: black;
+  word-spacing: 3px;
+  font-weight: 400;
+}
+.main_view .main_middle header section .right div a {
+  text-decoration: none;
+  color: #aad6c1;
+}
+.main_view .main_middle header section .right div,
+.main_view .main_middle header section .left {
+  margin-top: 20px;
+}
+.main_view .main_middle header section .right div i {
+  padding-right: 10px;
+}
+.main_view .main_middle header nav {
+  width: 100%;
+}
+.main_view .main_middle header nav ul {
+  padding: 0px;
+  width: 65%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main_view .main_middle header nav ul li {
+  display: inline-block;
+}
+.main_view .main_middle header nav ul li a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.active {
+  color: #aad6c1 !important;
+}
+.main_view .main_middle main {
+  width: 100%;
+  margin-top: 160px;
+}
+.main_view .main_middle main img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.main_view .main_middle main .mark-twain {
+  width: 100%;
+  height: 290px;
+  background-color: #aad6c1;
+}
+.main_view .main_middle main .mark-twain .mark {
+  width: 70%;
+  height: 210px;
+  background-color: #aad6c1;
+}
+.main_view .main_middle main .mark-twain .mark h3 {
+  width: 100%;
+  height: 210px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solid {
+  width: 15%;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solid .line {
+  width: 50%;
+  border: 1px solid white;
+}
+.name {
+  width: 30%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name p span {
+  width: 60%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.aboutme {
+  width: 100%;
+  height: 100px;
+}
+.aboutme h2 {
+  margin: 0px;
+}
+.aboutme h2 span {
+  width: 25%;
+  display: inline-block;
+}
+.aboutme .me {
+  width: 75%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  float: right;
+}
+.text {
+  width: 100%;
+  height: 320px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}
+.text .ABOUTME .oneh span,
+.text .experience .firsth span {
+  font-weight: 500;
+  font-size: 16px;
+}
+.text .ABOUTME .onep span,
+.text .experience .firstul li span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.text .ABOUTME .twoh span,
+.text .experience .secondh span {
+  font-weight: 500;
+  font-size: 16px;
+}
+.text .ABOUTME .twop,
+.text .experience .secondul li span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.contactme {
+  width: 100%;
+  height: 100px;
+}
+.contactme h2 {
+  margin: 0px;
+}
+.contactme h2 span {
+  width: 25%;
+  display: inline-block;
+}
+.contactme .contact {
+  width: 75%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  float: right;
+}
+.CONTACTME {
+  width: 100%;
+  height: 320px;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid-column-gap: 60px;
+}
+.CONTACTME .phone .info span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.phone span,
+.address span,
+.email span {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+}
+.authorization {
+  width: 100%;
+  height: auto;
+}
+.authorization input {
+  border: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: #aad6c1;
+}
+.authorization input:focus {
+  outline: none;
+}
+.authorization input:hover {
+  background-color: #7fa191;
+}
+.authorization textarea {
+  width: 100%;
+  height: 130px;
+  border: 0px;
+  background-color: #aad6c1;
+}
+.authorization textarea:focus {
+  outline: none;
+}
+.authorization textarea:hover {
+  background-color: #7fa191;
+}
+.authorization textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 130px;
+  max-height: 130px;
+}
+.authorization button {
+  width: 150px;
+  height: 40px;
+  float: right;
+  border: 0px;
+  background-color: #7fa191;
+}
+.authorization button:hover {
+  background-color: #aad6c1;
+}
+.authorization button span {
+  color: white;
+}
