@@ -221,6 +221,15 @@ body {
   height: 40px;
   background-color: #aad6c1;
 }
+.authorization .name::placeholder,
+.authorization .email::placeholder,
+.authorization .phone::placeholder {
+  padding-left: 10px;
+}
+.authorization .textarea::placeholder {
+  padding-top: 10px;
+  padding-left: 10px;
+}
 .authorization input:focus {
   outline: none;
 }
